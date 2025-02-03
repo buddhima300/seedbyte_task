@@ -1,0 +1,135 @@
+// this block of codes is used to define the books data array
+//  this is in memory data store
+
+exports.books = [
+  { ID: 1, Name: "1984", Author: "George Orwell", PublishedYear: 1949 },
+  {
+    ID: 2,
+    Name: "To Kill a Mockingbird",
+    Author: "Harper Lee",
+    PublishedYear: 1960,
+  },
+  {
+    ID: 3,
+    Name: "The Great Gatsby",
+    Author: "F. Scott Fitzgerald",
+    PublishedYear: 1925,
+  },
+  {
+    ID: 4,
+    Name: "Pride and Prejudice",
+    Author: "Jane Austen",
+    PublishedYear: 1813,
+  },
+  {
+    ID: 5,
+    Name: "The Catcher in the Rye",
+    Author: "J.D. Salinger",
+    PublishedYear: 1951,
+  },
+  {
+    ID: 6,
+    Name: "The Hunger Games",
+    Author: "Suzanne Collins",
+    PublishedYear: 2008,
+  },
+  { ID: 7, Name: "The Hobbit", Author: "J.R.R. Tolkien", PublishedYear: 1937 },
+  {
+    ID: 8,
+    Name: "Brave New World",
+    Author: "Aldous Huxley",
+    PublishedYear: 1932,
+  },
+  {
+    ID: 9,
+    Name: "The Diary of a Young Girl",
+    Author: "Anne Frank",
+    PublishedYear: 1947,
+  },
+  {
+    ID: 10,
+    Name: "The Alchemist",
+    Author: "Paulo Coelho",
+    PublishedYear: 1988,
+  },
+  { ID: 11, Name: "Moby-Dick", Author: "Herman Melville", PublishedYear: 1851 },
+  {
+    ID: 12,
+    Name: "The Girl with the Dragon Tattoo",
+    Author: "Stieg Larsson",
+    PublishedYear: 2005,
+  },
+  {
+    ID: 13,
+    Name: "Crime and Punishment",
+    Author: "Fyodor Dostoevsky",
+    PublishedYear: 1866,
+  },
+  {
+    ID: 14,
+    Name: "The Da Vinci Code",
+    Author: "Dan Brown",
+    PublishedYear: 2003,
+  },
+  {
+    ID: 15,
+    Name: "The Lord of the Rings",
+    Author: "J.R.R. Tolkien",
+    PublishedYear: 1954,
+  },
+  {
+    ID: 16,
+    Name: "The Handmaid's Tale",
+    Author: "Margaret Atwood",
+    PublishedYear: 1985,
+  },
+  {
+    ID: 17,
+    Name: "Sapiens: A Brief History of Humankind",
+    Author: "Yuval Noah Harari",
+    PublishedYear: 2011,
+  },
+  {
+    ID: 18,
+    Name: "The Art of War",
+    Author: "Sun Tzu",
+    PublishedYear: "5th century BC",
+  },
+  {
+    ID: 19,
+    Name: "Thinking, Fast and Slow",
+    Author: "Daniel Kahneman",
+    PublishedYear: 2011,
+  },
+  { ID: 20, Name: "The Road", Author: "Cormac McCarthy", PublishedYear: 2006 },
+  {
+    ID: 21,
+    Name: "Gone with the Wind",
+    Author: "Margaret Mitchell",
+    PublishedYear: 1936,
+  },
+  {
+    ID: 22,
+    Name: "The Book Thief",
+    Author: "Markus Zusak",
+    PublishedYear: 2005,
+  },
+  {
+    ID: 23,
+    Name: "The Divine Comedy",
+    Author: "Dante Alighieri",
+    PublishedYear: 1320,
+  },
+  {
+    ID: 24,
+    Name: "The Chronicles of Narnia",
+    Author: "C.S. Lewis",
+    PublishedYear: 1950,
+  },
+  {
+    ID: 25,
+    Name: "The Kite Runner",
+    Author: "Khaled Hosseini",
+    PublishedYear: 2003,
+  },
+];
