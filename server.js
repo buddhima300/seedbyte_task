@@ -10,13 +10,13 @@ app.use(cors()); // enabling cors for all routes
 const bodyParser = require("body-parser");
 app.use(bodyParser.json()); // enabling body-parser for all routes
 
-//lets create simple route
-const booksRoutes = require("./src/routes/books.route");
-app.use("/api/books", booksRoutes); // enabling books route for all requests
-
 //lets add error handler middleware to hadnle errors in requests
 const errorHandler = require("./src/middlewares/errorHandler");
 app.use(errorHandler); // enabling error handler for all routes
+
+//lets create simple route
+const booksRoutes = require("./src/routes/books.route");
+app.use("/api/books", booksRoutes); // enabling books route for all requests
 
 //lets create the server
 const PORT = process.env.PORT || 5000;

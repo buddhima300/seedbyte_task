@@ -4,7 +4,7 @@ const { books } = require("../data/books");
 // lets create simple controller to list all the books
 exports.listBooks = (req, res) => {
   res.status(200).json(books); // send the books array as json response
-  //   console.log(books);
+  // console.log(books);
 };
 
 // lets try to get the book details by id
